@@ -4,7 +4,6 @@ from main.models import MoodEntry
 from django.http import HttpResponse
 from django.core import serializers
 
-# Create your views here.
 def show_main(request):
     mood_entries = MoodEntry.objects.all()
 
